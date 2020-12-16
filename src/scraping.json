@@ -1,0 +1,47 @@
+[
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "Киев",
+    "slug": "kiev"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "Одесса",
+    "slug": "odessa"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 2,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 1,
+  "fields": {
+    "url": "https://www.work.ua/jobs/4048942/",
+    "title": "Python Developer",
+    "company": "LeverX Group",
+    "description": "LeverX Group = LeverX + Emerline\r\n\r\nJoin our team and get a welcome bonus!",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-12-10"
+  }
+}
+]
